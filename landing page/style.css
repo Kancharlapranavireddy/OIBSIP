@@ -1,0 +1,170 @@
+/* styles.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5988bb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #519def;
+}
+
+
+header {
+    background-image: url("bgi.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    height: 500px;
+    color: #fff;
+  }
+
+
+.heading-primary {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+  }
+  
+  .sub-heading {
+    font-size: 24px;
+    color: #777;
+    
+  }
+  
+ .left-image {
+  order: 1; 
+  margin-right: 20px;
+}
+
+.right-image {
+  order: 3; 
+  margin-left: 20px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+.instrument {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.instrument .left-image {
+  margin-left: 200px;
+}
+
+.instrument .right-image {
+  margin-left: 200px;
+}
+
+.instrument img {
+  max-width: 300px;
+  height: auto;
+}
+
+.instrument .left-content {
+  order: 1;
+  margin-left: 100px; 
+}
+
+.instrument .right-content {
+  order: 2;
+  margin-left: 270px ;
+}
+
+
+section h2 {
+  text-align: center;
+  margin-bottom: 10px; 
+}
+
+
+
+
+
+section .btn {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+section h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0; 
+  
+}
+.why {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 1;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .instrument img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
